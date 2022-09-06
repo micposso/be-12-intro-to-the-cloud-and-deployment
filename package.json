@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "sever.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
